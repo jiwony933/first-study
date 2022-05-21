@@ -1,5 +1,6 @@
 function handleClick() {
-    alert('클릭했어요');
+    document.getElementsByClassName('my-button')[0].style.color = 'red';
+    document.getElementsByClassName('my-button')[1].style.fontSize = '30px';
 }
 
 function handleClick2() {
